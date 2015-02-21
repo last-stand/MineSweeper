@@ -1,0 +1,72 @@
+.main{
+	display: inline-block;
+	width:auto;
+	height:auto;
+	margin-top: 4%;
+	border: 2px solid black;
+	background: linear-gradient(grey,silver,white);
+}
+.header{
+	background: radial-gradient(silver,grey);
+	width:inherit;
+	height:auto;
+	margin-top: 1%;
+	border: 2px solid black;
+}
+#headText{
+	height: 6%;
+}
+#counter{
+	margin: 3px;
+	font-size: 28px;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: darkred;
+	float: left;
+}
+#Timer{
+	margin: 3px;
+	font-size: 28px;
+	font-family: sans-serif;
+	font-weight: bold;
+	float: right;
+	color: darkred;
+}
+td{
+	width: auto;
+	height: auto;
+	text-align: center;
+}
+tr{
+	width: auto;
+	height: 50px;
+}
+.mine_div{
+	font-size: 31px;
+	font-weight: bolder;
+	width: 48px;
+	height: 48px;
+	border: 1px solid black;
+	text-align: center;
+}
+#formGrid{
+	border-radius: 10px;
+	background: grey;
+	margin-top:4%;
+	height: 30%;
+	width: 30%;
+	border: 3px groove black;
+	box-shadow: 11px 13px 5px 0px rgba(84,84,84,1);
+}
+#submit:hover{
+	background: black;
+	color: white;
+	font-weight: bold;
+}
+.input:focus{
+	background: lightblue;
+}
+table{
+	width: auto;
+	height: auto; 
+}
